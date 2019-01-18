@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+html {
+  font: 62.5%/1.6 sans-serif;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -33,9 +37,6 @@
 
 
 
-html {
-  font: 62.5%/1.6 sans-serif;
-}
 
 body {
   font-size: 160%;
