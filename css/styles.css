@@ -12,6 +12,11 @@ html {
   font: 62.5%/1.6 sans-serif;
 }
 
+body {
+  font-size: 160%;
+  padding: 2rem;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -38,10 +43,6 @@ html {
 
 
 
-body {
-  font-size: 160%;
-  padding: 2rem;
-}
 
 .parent {
   display: flex;
