@@ -52,10 +52,11 @@ body {
   min-height: var(--header-height);
 }
 
-/*.child:nth-child(1), .child:nth-child(4) {
+.child:nth-child(1), .child:nth-child(4) {
   flex-basis: 100%;
 }
-.child:nth-child(2) {
+
+/*.child:nth-child(2) {
   flex: 3 1 30rem;
 }
 .child:nth-child(3) {
