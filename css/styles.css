@@ -60,11 +60,11 @@ body {
   flex: 3 1 30rem;
 }
 
-/*.child:nth-child(3) {
+.child:nth-child(3) {
   flex: 1 1 30rem;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
