@@ -56,10 +56,11 @@ body {
   flex-basis: 100%;
 }
 
-/*.child:nth-child(2) {
+.child:nth-child(2) {
   flex: 3 1 30rem;
 }
-.child:nth-child(3) {
+
+/*.child:nth-child(3) {
   flex: 1 1 30rem;
 }
 
