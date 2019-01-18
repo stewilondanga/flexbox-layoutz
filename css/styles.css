@@ -39,7 +39,7 @@ body {
   overflow: hidden;
 }
 
-/*.child {
+.child {
   padding: 20px;
   background: linear-gradient(45deg, #ff77fb, #a95aff);
   margin: 1rem;
@@ -47,7 +47,8 @@ body {
   color: white;
   text-transform: uppercase;
 }
-.child:nth-child(1) {
+
+/*.child:nth-child(1) {
   min-height: var(--header-height);
 }
 .child:nth-child(1), .child:nth-child(4) {
