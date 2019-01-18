@@ -32,10 +32,6 @@ body {
   height: 1.5em;
 }
 
-/*
-
-
-
 .parent {
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +39,7 @@ body {
   overflow: hidden;
 }
 
-.child {
+/*.child {
   padding: 20px;
   background: linear-gradient(45deg, #ff77fb, #a95aff);
   margin: 1rem;
