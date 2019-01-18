@@ -2,6 +2,12 @@
   --header-height: 20vh;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -26,11 +32,6 @@
 }
 
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 html {
   font: 62.5%/1.6 sans-serif;
