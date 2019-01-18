@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,53 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+:root {
+  --header-height: 20vh;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: 62.5%/1.6 sans-serif;
+}
+
+body {
+  font-size: 160%;
+  padding: 2rem;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
+  overflow: hidden;
+}
+
+.child {
+  padding: 20px;
+  background: linear-gradient(45deg, #ff77fb, #a95aff);
+  margin: 1rem;
+  border-radius: .5rem;
+  color: white;
+  text-transform: uppercase;
+}
+.child:nth-child(1) {
+  min-height: var(--header-height);
+}
+.child:nth-child(1), .child:nth-child(4) {
+  flex-basis: 100%;
+}
+.child:nth-child(2) {
+  flex: 3 1 30rem;
+}
+.child:nth-child(3) {
+  flex: 1 1 30rem;
 }
 
 .containers {
